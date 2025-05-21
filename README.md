@@ -1,3 +1,28 @@
+# Enhanced CLIPstyler via Image Retrieval and Embedding Interpolation 
+
+## Overview
+This is a course project for Deep Learning and Practice at National Yang Ming Chiao Tung University (NYCU), extending the original CLIPstyler with new features.
+
+## New Features
+
+### 1. Style Retrieval System
+Enhanced style transfer accuracy through:
+- CLIP embeddings-based style reference search
+- LanceDB-powered style image database
+- Intelligent style matching system
+
+### 2. Embedding Interpolation Control
+Improved style customization with:
+- Adjustable style intensity controls
+- Multi-style mixing capabilities
+- Enhanced stylization diversity
+
+### 3. How to run
+  - build embedding dataset by using lancedb
+  - please refer to ***run_CLIPstyler-retrieval.sh***
+
+**Below are original README**
+
 # CLIPstyler
 ## Official Pytorch implementation of "CLIPstyler:Image Style Transfer with a Single Text Condition" (CVPR 2022 Accepted)
 ### [Gihyun Kwon](https://sites.google.com/view/gihyunkwon), [Jong Chul Ye](https://bispl.weebly.com/professor.html)
